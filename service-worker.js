@@ -68,7 +68,7 @@ self.addEventListener('fetch', event => {
 
         if (cachedResponse) {
           return cachedResponse;
-          return caches.match('/error.html');
+
         }
 
         return caches.open(RUNTIME).then(cache => {
@@ -82,4 +82,5 @@ self.addEventListener('fetch', event => {
       })
     );
   }
+  return caches.match('/error.html');
 });

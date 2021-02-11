@@ -121,7 +121,7 @@ var e;
 		today.getDate()
 	);
 
-	// console.log(phase);
+	console.log(phase);
 
 	document.getElementById("text").innerHTML = phase.name;
 

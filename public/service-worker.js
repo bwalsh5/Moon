@@ -31,7 +31,6 @@ const PRECACHE_URLS = [
   'images/moon/Moon_phase_5.svg',
   'images/moon/Moon_phase_6.svg',
   'images/moon/Moon_phase_7.svg',
-  'error.html'
 ];
 
 // The install handler takes care of precaching the resources we always need.
@@ -65,10 +64,8 @@ self.addEventListener('fetch', event => {
   if (event.request.url.startsWith(self.location.origin)) {
     event.respondWith(
       caches.match(event.request).then(cachedResponse => {
-
         if (cachedResponse) {
           return cachedResponse;
-          return caches.match('/error.html');
         }
 
         return caches.open(RUNTIME).then(cache => {

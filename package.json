@@ -1,10 +1,10 @@
 {
   "name": "moon",
   "version": "1.0.0",
-  "description": "Phases of teh Moon",
+  "description": "Phases of the Moon",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    
   },
   "repository": {
     "type": "git",

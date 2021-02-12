@@ -1,0 +1,22 @@
+{
+  "name": "moon",
+  "version": "1.0.0",
+  "description": "Phases of teh Moon",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bwalsh5/Moon.git"
+  },
+  "keywords": [
+    "Moon"
+  ],
+  "author": "Brian Walsh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bwalsh5/Moon/issues"
+  },
+  "homepage": "https://github.com/bwalsh5/Moon#readme"
+}
